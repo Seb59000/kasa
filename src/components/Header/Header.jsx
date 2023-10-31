@@ -4,18 +4,18 @@ import logo from '../../assets/LOGO.png'
 
 function Header() {
     const title = 'Kasa'
-    const link1 = 'Accueil'
-    const link2 = 'A propos'
+    const linkHome = 'Accueil'
+    const linkAbout = 'A propos'
     return (
-        <header className='lmj-banner'>
+        <header>
             <img src={logo} alt='kasa' className='banner-logo' />
             <div>
 
             </div>
             <h1 className='sr-only'>{title}</h1>
             <nav>
-                <Link to="/">{link1}</Link>
-                <Link to="/about">{link2}</Link>
+                <Link to="/">{linkHome}</Link>
+                <Link to="/about">{linkAbout}</Link>
             </nav>
         </header>
     )

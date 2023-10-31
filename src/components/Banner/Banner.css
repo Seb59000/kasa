@@ -1,0 +1,15 @@
+#banner {
+    width: 80%;
+}
+
+#banner h2 {
+    position: fixed;
+    padding: 2em;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+#banner img {
+    border-radius: 1em;
+    width: 80%;
+}

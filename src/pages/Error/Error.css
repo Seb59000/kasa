@@ -1,0 +1,19 @@
+#error {
+    font-size: 288px;
+    margin: 0em;
+    text-align: center;
+}
+
+#error-text {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#error-link {
+    display: block;
+    text-align: center;
+    margin: 4em;
+}

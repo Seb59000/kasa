@@ -4,12 +4,11 @@ header {
     justify-content: space-between;
 }
 
-nav {
+header nav {
     margin: 1.6em 0;
 }
 
-a {
-    font-family: Montserrat;
+header a {
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
@@ -17,12 +16,6 @@ a {
     text-align: right;
     text-decoration: none;
     margin-left: 3em;
-    color: #FF6060;
-    ;
-}
-
-a:hover {
-    text-decoration: solid;
 }
 
 .sr-only {

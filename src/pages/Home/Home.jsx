@@ -1,7 +1,14 @@
+import Banner from '../../components/Banner/Banner';
+import image from '../../assets/banner/banner-home.jpg'
+
 function Home() {
     return (
         <div>
-            <h2>Home</h2>
+            <Banner
+                image={image}
+                alt='Littoral'
+                page="home"
+            />
         </div>
     )
 }
