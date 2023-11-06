@@ -1,6 +1,9 @@
 header {
+    width: 80%;
+    margin: auto;
     display: flex;
-    margin: 5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
     justify-content: space-between;
 }
 
@@ -16,6 +19,10 @@ header a {
     text-align: right;
     text-decoration: none;
     margin-left: 3em;
+}
+
+header img {
+    height: 4.2em;
 }
 
 .sr-only {

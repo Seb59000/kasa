@@ -1,0 +1,14 @@
+ #banner-text {
+     text-align: center;
+     position: fixed;
+     width: 80%;
+     font-size: 48px;
+     font-weight: 500;
+ }
+
+ #banner-container {
+     display: flex;
+     align-items: center;
+     width: 80%;
+     margin: auto;
+ }

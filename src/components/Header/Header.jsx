@@ -9,9 +9,6 @@ function Header() {
     return (
         <header>
             <img src={logo} alt='kasa' className='banner-logo' />
-            <div>
-
-            </div>
             <h1 className='sr-only'>{title}</h1>
             <nav>
                 <Link to="/">{linkHome}</Link>
