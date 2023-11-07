@@ -1,10 +1,12 @@
 footer {
+    margin-top: 2em;
     background: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 13em;
+    justify-content: space-evenly;
+    padding-top: 2em;
 }
 
 footer p {

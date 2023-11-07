@@ -2,6 +2,8 @@ import './Error.css';
 import { Link } from 'react-router-dom'
 
 function Error() {
+    document.title = "Erreur"
+
     return (
         <div>
             <h2 id='error'>404</h2>

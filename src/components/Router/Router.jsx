@@ -6,7 +6,6 @@ import About from '../../pages/About/About';
 import Logement from '../../pages/Logement/Logement';
 import Error from '../../pages/Error/Error';
 
-
 function Router() {
     return (
         <BrowserRouter>

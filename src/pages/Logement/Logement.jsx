@@ -1,6 +1,8 @@
 import { useParams } from 'react-router-dom'
 
 function Logement() {
+    document.title = "Showroom"
+
     const { id } = useParams()
 
     return (
