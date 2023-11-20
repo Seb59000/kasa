@@ -12,3 +12,15 @@ footer {
 footer p {
     color: white;
 }
+
+/*** MEDIA QUERIES ***/
+@media (max-width: 767.98px) {
+    footer {
+        font-size: 12px;
+    }
+
+    footer p {
+        width: 133.59px;
+        text-align: center;
+    }
+}

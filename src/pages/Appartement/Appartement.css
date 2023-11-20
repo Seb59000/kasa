@@ -1,0 +1,128 @@
+#infos {
+    width: 80%;
+    margin: auto;
+    padding: 3em;
+}
+
+.containerTitleTagsProfilRating {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTitle h2 {
+    color: #FF6060;
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.location {
+    color: #FF6060;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.604rem;
+    padding-top: 0.35rem;
+}
+
+.containerTags {
+    padding-top: 0.35rem;
+}
+
+.containerRatingProfil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerRating {
+    display: flex;
+    flex: 70%;
+}
+
+.containerProfil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 30%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    color: #FF6060;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 25.67px;
+    text-align: right;
+    padding-right: 0.625rem;
+}
+
+.photo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+.containerDescriptionEquipments {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.4rem;
+}
+
+/*** MEDIA QUERIES ***/
+@media (min-width: 767.98px) {
+    .location {
+        font-size: 1.125rem;
+        padding-top: 0.85rem;
+    }
+
+    .containerTitleTagsProfilRating {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .containerTags {
+        padding-top: 1.25rem;
+    }
+
+    .containerRatingProfil {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+    .containerRating {
+        margin-top: 0.2rem;
+        flex: 50%;
+    }
+
+    .containerProfil {
+        flex: 50%;
+    }
+
+    .name {
+        font-size: 1.125rem;
+    }
+
+    .photo {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 4rem;
+    }
+
+    .containerDescriptionEquipments {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .containerDescription,
+    .containerEquipments {
+        flex: 50%;
+        margin-top: 0.1rem;
+    }
+
+    .containerDescription {
+        margin-right: 4.65rem;
+    }
+}

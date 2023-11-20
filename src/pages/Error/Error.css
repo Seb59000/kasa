@@ -2,6 +2,7 @@
     font-size: 288px;
     margin: 0em;
     text-align: center;
+    color: #FF6060;
 }
 
 #error-text {
@@ -10,10 +11,25 @@
     line-height: 51px;
     letter-spacing: 0em;
     text-align: center;
+    color: #FF6060;
 }
 
 #error-link {
     display: block;
     text-align: center;
     margin: 4em;
+    color: #FF6060;
+}
+
+/*** MEDIA QUERIES ***/
+@media (max-width: 767.98px) {
+    #error {
+        font-size: 96px;
+        margin-top: 1em;
+    }
+
+    #error-text {
+        font-size: 18px;
+        margin: 5em 4em;
+    }
 }

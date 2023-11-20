@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import '../../data/recipes.json'
+import '../../data/logements.json'
 
-const url = '../../data/recipes.json'
+const url = '../../data/logements.json'
 
 function useFetch() {
     const [logementsList, setLogementsList] = useState([])

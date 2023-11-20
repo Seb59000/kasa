@@ -11,17 +11,17 @@ function Home() {
     // fetchJSON()
     document.title = "Accueil"
     return (
-        <div>
+        <main>
             <div id='banner-container'>
                 <h2 id='banner-text'>
-                    Chez vous,partout et ailleurs
+                    Chez vous, partout et ailleurs
                 </h2>
                 <Banner
                     image={image}
                     alt='Falaise face à la mer'
                 />
             </div>
-            <div className='container'>
+            <section className='container'>
                 <div id='card-container'>
                     {logementsList.map((logement, index) => (
                         <Card
@@ -32,8 +32,8 @@ function Home() {
                         />
                     ))}
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
     )
 }
 

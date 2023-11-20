@@ -14,7 +14,6 @@
     font-size: 48px;
     font-weight: 500;
     color: white;
-
 }
 
 .container {
@@ -30,4 +29,16 @@
     justify-content: center;
     background: #F6F6F6;
     border-radius: 1em;
+}
+
+/*** MEDIA QUERIES ***/
+@media (max-width: 767.98px) {
+    #banner-text {
+        font-size: 24px;
+    }
+
+    #card-container {
+        padding-top: 0;
+        background: #fffdfd;
+    }
 }

@@ -51,7 +51,7 @@
 }
 
 /*** MEDIA QUERIES ***/
-@media (min-width: 1440px) {
+@media (min-width: 767.98px) {
     .card {
         width: 340px;
         margin: 1.563rem 1.875rem;

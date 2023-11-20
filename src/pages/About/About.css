@@ -5,3 +5,8 @@
     margin: auto;
     margin-bottom: 2em;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+}

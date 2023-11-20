@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 import './Header.css'
 import logo from '../../assets/LOGO.png'
 
-function Header({ page }) {
+function Header() {
     const title = 'Kasa'
     const linkHome = 'Accueil'
     const linkAbout = 'A propos'
@@ -11,9 +11,23 @@ function Header({ page }) {
             <img src={logo} alt='kasa' className='banner-logo' />
             <h1 className='sr-only'>{title}</h1>
             <nav>
+                <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                        isActive ? "" : "noline"
+                    }
+                >
+                    {linkHome}
+                </NavLink>
 
-                <Link to="/">{linkHome}</Link>
-                <Link to="/about">{linkAbout}</Link>
+                <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                        isActive ? "" : "noline"
+                    }
+                >
+                    {linkAbout}
+                </NavLink>
             </nav>
         </header>
     )

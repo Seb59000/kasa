@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Home from '../../pages/Home/Home';
 import About from '../../pages/About/About';
-import Logement from '../../pages/Logement/Logement';
+import Appartement from '../../pages/Appartement/Appartement';
 import Error from '../../pages/Error/Error';
 
 function Router() {
@@ -13,7 +13,7 @@ function Router() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/logement/:id" element={<Logement />} />
+                <Route path="/logement/:id" element={<Appartement />} />
                 <Route path="*" element={<Error />} />
             </Routes>
             <Footer />
