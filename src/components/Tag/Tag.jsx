@@ -5,8 +5,8 @@ function Tag({ tags }) {
     return (
         <div className="containerTags">
             {
-                tags.map((tag) => (
-                    < div className="tag" >
+                tags.map((tag, index) => (
+                    < div className="tag" key={index} >
                         <p>{tag}</p>
                     </div >
                 ))

@@ -10,3 +10,10 @@
     width: 80%;
     margin: auto;
 }
+
+@media (max-width: 767.98px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+}

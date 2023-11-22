@@ -8,7 +8,7 @@
 #error-text {
     font-size: 36px;
     font-weight: 500;
-    line-height: 51px;
+    line-height: 1.5em;
     letter-spacing: 0em;
     text-align: center;
     color: #FF6060;
@@ -17,7 +17,7 @@
 #error-link {
     display: block;
     text-align: center;
-    margin: 4em;
+    margin: 7em;
     color: #FF6060;
 }
 
@@ -31,5 +31,9 @@
     #error-text {
         font-size: 18px;
         margin: 5em 4em;
+    }
+
+    #error-link {
+        margin: 5em;
     }
 }

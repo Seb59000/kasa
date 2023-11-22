@@ -1,7 +1,7 @@
 #infos {
     width: 80%;
     margin: auto;
-    padding: 3em;
+    padding-top: 0.5em;
 }
 
 .container-titleTagsProfilRating {
@@ -13,7 +13,7 @@
     color: #FF6060;
     font-size: 1.125rem;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .location {
@@ -25,7 +25,7 @@
 }
 
 .tags {
-    padding-top: 0.35rem;
+    padding-top: 0.6rem;
 }
 
 .container-ratingProfil {
@@ -42,14 +42,13 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    /* flex: 30%; */
 }
 
 .name {
     display: flex;
     flex-direction: column;
     color: #FF6060;
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 25.67px;
     text-align: right;
@@ -70,6 +69,14 @@
 
 /*** MEDIA QUERIES ***/
 @media (min-width: 767.98px) {
+    #infos {
+        padding-top: 3em;
+    }
+
+    #infos h2 {
+        font-size: 36px;
+    }
+
     .location {
         font-size: 1.125rem;
         padding-top: 0.85rem;
@@ -109,7 +116,7 @@
     .container-descriptionEquipments {
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 0;
+        margin-top: -0.5em;
     }
 
     .description,

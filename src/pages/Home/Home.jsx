@@ -1,17 +1,40 @@
 import Banner from '../../components/Banner/Banner';
 import Card from '../../components/Card/Card.jsx';
 import image from '../../assets/banner/banner-home.jpg'
-// import useFetch from '../../utils/hooks'
+import useFetch from '../../utils/hooks'
+import { useState, useEffect } from 'react'
 import './Home.css';
 import logementsList from '../../data/logements.json';
 
 function Home() {
     // const { logementsList, isLoading, error } = useFetch("../../data/logements.json")
     // console.log(logementsList)
-    // fetchJSON()
+    // await fetchJSON()
+    // getData();
+    // const defaultValue = []
+    // // Store list of all users
+    // const [users, setUsers] = useState(defaultValue);
+
+    // // Function to collect data
+    // const getApiData = async () => {
+    //     const response = await fetch(
+    //         "../data/logements.json"
+    //     ).then((response) => response.json());
+
+    //     // update the state
+    //     setUsers(response);
+    // };
+
+    // useEffect(() => {
+    //     getApiData();
+    // }, []);
+
+
+    // console.log(users)
     document.title = "Accueil"
     return (
         <main>
+            {/* <ul>{this.state.data.map(item => <li>{item.title}</li>)} </ul> */}
             <div id='banner-container'>
                 <h2 id='banner-text'>
                     Chez vous, partout et ailleurs
@@ -39,16 +62,34 @@ function Home() {
 
 export default Home
 
+
+async function getData() {
+    const res = await fetch('../../data/logements.json');
+    const data = await res.json();
+    return this.setState({ data });
+}
 /**
  * Récupération des logements depuis le fichier JSON
  */
 async function fetchJSON() {
+    fetch('./logements.json')
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error(error));
+
     // fetch('../../data/logements.json')
     //     .then(response => response.json())
     //     .then(data => console.log(data))
     //     .catch(error => console.error(error));
-    const response = await fetch('../../data/logements.json')
-    console.log(response)
-    const logementsList = await response.json()
-    console.log(logementsList)
+
+
+    // const response = await fetch('../../data/logements.json')
+    // await console.log(response)
+    // const logementsList = await response.json()
+    // await console.log(logementsList)
+
+
+
+
 }
+

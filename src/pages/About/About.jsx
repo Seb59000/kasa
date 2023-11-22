@@ -16,10 +16,12 @@ function About() {
                 />
             </div>
             <section className='container'>
-                <Collapse page="about" label="Fiabilité" text={texts.txt1} />
-                <Collapse page="about" label="Respect" text={texts.txt2} />
-                <Collapse page="about" label="Service" text={texts.txt3} />
-                <Collapse page="about" label="Sécurité" text={texts.txt4} />
+                <div className='container'>
+                    <Collapse label="Fiabilité" text={texts.txt1} />
+                    <Collapse label="Respect" text={texts.txt2} />
+                    <Collapse label="Service" text={texts.txt3} />
+                    <Collapse label="Sécurité" text={texts.txt4} />
+                </div>
             </section>
         </main>
     )

@@ -8,7 +8,7 @@ function Rating({ rating }) {
     for (let i = 0; i < 5; i++) {
         const starColor = i < rating ? starColor1 : starColor2;
         stars.push(
-            <img src={starColor} alt="notation" className="span-rating" />
+            <img key={i} src={starColor} alt="notation" className="span-rating" />
         );
     }
 

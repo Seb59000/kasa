@@ -41,6 +41,10 @@ header img {
 
 /*** MEDIA QUERIES ***/
 @media (max-width: 767.98px) {
+    header {
+        margin-top: 2em;
+    }
+
     header img {
         height: 3em;
     }
