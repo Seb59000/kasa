@@ -27,7 +27,7 @@
 }
 
 .container-slide {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -84,5 +84,6 @@
 
     .container-slide {
         padding: 0 5.2rem 0 6.25rem;
+        width: 80%;
     }
 }

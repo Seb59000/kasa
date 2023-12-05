@@ -1,5 +1,5 @@
 #infos {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-top: 0.5em;
 }
@@ -70,6 +70,7 @@
 /*** MEDIA QUERIES ***/
 @media (min-width: 767.98px) {
     #infos {
+        width: 80%;
         padding-top: 3em;
     }
 

@@ -21,10 +21,9 @@ function Appartement() {
     const nameParts = host.name.split(' ');
     const firstName = nameParts[0];
     const lastName = nameParts[1];
-    const equipementsColumn = []
-    equipments.forEach((item) => equipementsColumn.push(
-        <p>{item}</p>
-    ))
+    const equipementsColumn = equipments.map((item) =>
+        <p key={item.toString()}>{item}</p>
+    );
 
     return (
         <main>
@@ -54,10 +53,10 @@ function Appartement() {
                 </div>
                 <div className="container-descriptionEquipments">
                     <div className="description">
-                        <Collapse page="logement" label="Description" text={description} />
+                        <Collapse label="Description" text={description} />
                     </div>
                     <div className="equipments">
-                        <Collapse page="logement" label="Équipements" text={equipementsColumn} />
+                        <Collapse label="Équipements" text={equipementsColumn} />
                     </div>
                 </div>
             </section >

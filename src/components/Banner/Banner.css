@@ -1,3 +1,11 @@
+#banner-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
 #banner {
     width: 100%;
     filter: brightness(70%);
@@ -12,5 +20,9 @@
 @media (max-width: 767.98px) {
     #banner-img {
         Height: 111px;
+    }
+
+    #banner-container {
+        width: 90%;
     }
 }

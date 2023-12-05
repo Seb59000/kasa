@@ -17,7 +17,7 @@ function Collapse({ label, text }) {
                 </span>
             </button>
             <div className={open ? "text show" : "text hide"}>
-                <p >{text}</p>
+                <div >{text}</div>
             </div>
         </div>
     )
