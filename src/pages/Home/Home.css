@@ -27,6 +27,7 @@
 @media (max-width: 767.98px) {
     #banner-text {
         font-size: 24px;
+        width: 90%;
     }
 
     #card-container {
